@@ -1,0 +1,14 @@
+public class Product implements java.io.Serializable {
+
+	public String pid;
+	public String pname;
+	public int qty;
+	public double price;
+
+	public Product(){}
+	public Product(String pid, String pname, int qty, double price) {
+		this.pid = pid;
+		this.pname = pname;
+		this.qty = qty;
+		this.price = price;
+	}
